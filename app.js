@@ -4,7 +4,7 @@ const port = 5000
 
 app.get('/index', (req, res) => {
     res.json({
-        user: "zhuqueqiao",
+        username: "zhuqueqiao",
         passwd: "zqq12345"
     })
 })
